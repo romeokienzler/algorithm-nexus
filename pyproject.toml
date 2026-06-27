@@ -30,7 +30,11 @@ cli = [
 ]
 ecosystem = [
   "bmfm-targets",
-  "gridfm-graphkit==0.0.7",
+  # gridfm-datakit pinned to 1.0.5rc1 to skip 1.0.4's broken
+  # gridfm-datakit-winblock marker. Drop once a stable >=1.0.5 ships.
+  # See https://github.com/gridfm/gridfm-graphkit/issues/81
+  "gridfm-datakit==1.0.5rc1",
+  "gridfm-graphkit==0.8.0rc1",
   "terratorch>=1.2.7",
   "tokamind",
 ]
