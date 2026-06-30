@@ -648,9 +648,9 @@ gridfm-datakit==1.0.5rc1 \
     --hash=sha256:74d1e55c1c7b30eaaa524a04206baeb5e343357b2cb6abda7d6ad0b9af3d478c \
     --hash=sha256:9ee600df953d0ca1a56549cb020f494948a5fec2dfef006ff7011b3737478f7b
     # via gridfm-graphkit
-gridfm-graphkit==0.8.0rc1 \
-    --hash=sha256:4a3c14ee04e128978fd9f65c9e512d72152369511f42a1926e1da71bcb6a2ad9 \
-    --hash=sha256:5205802e55c9b13b86f4dc6a546d7a035b87d2e872466fe7636b04d4d6d507e0
+gridfm-graphkit==0.8.0rc3 \
+    --hash=sha256:059673d059bdcaf3b8642e6e92cff92decef919ab2555fd23c0d4dff57c0f19e \
+    --hash=sha256:10cc59f13f9539b9d35fcf44d69014a9c2b49bfde00a3a295d67868ea206125e
     # via algorithm-nexus
 grpcio==1.81.1 \
     --hash=sha256:12b7524c88d4026d3dcb7b0ebe16b6714f3b4af402ddd0f0639ab064a00c87c3 \

@@ -36,9 +36,6 @@ conflicts = [[
 [options]
 prerelease-mode = "allow"
 
-[manifest]
-constraints = [{ name = "gridfm-datakit", specifier = "==1.0.5rc1" }]
-
 [[package]]
 name = "absl-py"
 version = "2.4.0"
@@ -322,7 +319,7 @@ test = [
 requires-dist = [
     { name = "ado-core", marker = "extra == 'cli'", specifier = ">=1.8.0" },
     { name = "bmfm-targets", marker = "extra == 'ecosystem'", git = "https://github.com/BiomedSciAI/biomed-multi-omic.git" },
-    { name = "gridfm-graphkit", marker = "extra == 'ecosystem'", specifier = "==0.8.0rc1" },
+    { name = "gridfm-graphkit", marker = "extra == 'ecosystem'", specifier = "==0.8.0rc3" },
     { name = "pydantic", marker = "extra == 'cli'", specifier = ">=2.13.3" },
     { name = "pyyaml", marker = "extra == 'cli'", specifier = ">=6.0.3" },
     { name = "rich", marker = "extra == 'cli'", specifier = ">=15.0.0" },
@@ -2424,7 +2421,7 @@ wheels = [
 
 [[package]]
 name = "gridfm-graphkit"
-version = "0.8.0rc1"
+version = "0.8.0rc3"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "gdown" },
@@ -2444,9 +2441,9 @@ dependencies = [
     { name = "torchvision" },
     { name = "urllib3" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/b9/68/0b2e3a505429b84461041b5a9990dbeb750673c5ba40b143604d7ba21af4/gridfm_graphkit-0.8.0rc1.tar.gz", hash = "sha256:4a3c14ee04e128978fd9f65c9e512d72152369511f42a1926e1da71bcb6a2ad9", size = 67612, upload-time = "2026-06-26T18:03:21.888Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/de/44/2495235edf4c5af184a03f5f116783373e4d96f096cdc236d6e82ffd7db5/gridfm_graphkit-0.8.0rc3.tar.gz", hash = "sha256:059673d059bdcaf3b8642e6e92cff92decef919ab2555fd23c0d4dff57c0f19e", size = 67892, upload-time = "2026-06-30T14:41:32.285Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/93/a2/20f5cc344d4d3027b78b0c366a9856f4d42699cf8819c9cf3057986f6e90/gridfm_graphkit-0.8.0rc1-py3-none-any.whl", hash = "sha256:5205802e55c9b13b86f4dc6a546d7a035b87d2e872466fe7636b04d4d6d507e0", size = 74810, upload-time = "2026-06-26T18:03:20.209Z" },
+    { url = "https://files.pythonhosted.org/packages/bf/71/e2bd7403e267937d80f365fb951b53a7f2cef4c21e7b1cd3d4bd346f6751/gridfm_graphkit-0.8.0rc3-py3-none-any.whl", hash = "sha256:10cc59f13f9539b9d35fcf44d69014a9c2b49bfde00a3a295d67868ea206125e", size = 74523, upload-time = "2026-06-30T14:41:30.836Z" },
 ]
 
 [[package]]
